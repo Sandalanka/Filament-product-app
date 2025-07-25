@@ -43,7 +43,6 @@ class TypeAssignmentsRelationManager extends RelationManager
                 //
             ])
             ->headerActions([
-                //Tables\Actions\CreateAction::make(),
                 Tables\Actions\CreateAction::make()
                 ->label('New Product Type')
                 ->using(function (array $data, RelationManager $livewire) {
